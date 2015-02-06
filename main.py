@@ -1,6 +1,8 @@
 #!/usr/bin/python
-from pythonwifi.iwlibs import Wireless
-frequency_channel_map = {
+
+  from pythonwifi.iwlibs import Wireless
+      frequency_channel_map = {
+        
 2412000000: "1",
 2417000000: "2",
 2422000000: "3",
@@ -40,12 +42,15 @@ frequency_channel_map = {
 5795000000: "159",
 5815000000: "163",
 5835000000: "167",
-5785000000: "171"
-}
-wifi = Wireless("wlan0")
-for ap in wifi.scan():
-print "SSID: " + ap.essid
-print "AP: " + ap.bssid
-print "Signal: " + str(ap.quality.getSignallevel())
-print "Frequency: " + str(ap.frequency.getFrequency())
-print "Channel: " + frequency_channel_map.get(ap.frequency.getFrequency())
+5785000000: "171",
+
+          }
+    wifi = Wireless("wlan0")
+    
+  for ap in wifi.scan():
+            print "SSID: " + ap.essid
+            print "AP: " + ap.bssid
+            print "Signal: " + str(ap.quality.getSignallevel())
+            print "Frequency: " + str(ap.frequency.getFrequency())
+            print "Channel: " + frequency_channel_map.get(ap.frequency.getFrequency())
+            print ""
