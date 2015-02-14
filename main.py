@@ -1,5 +1,6 @@
 #!/usr/bin/python
-# recoded by vickydasta
+#coded by Panggalu Ari and Vicky Dasta
+#bug fixed by Vicky Dasta
 import sys
 try:
   from pythonwifi.iwlibs import Wireless
