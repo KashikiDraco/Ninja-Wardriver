@@ -8,3 +8,6 @@ The function scan(), like the name implies, scans for access points on the netwo
 2.442GHz on channel 7.Scanning is an active operation. The tool transmits probe request packets with a set broadcast SSID. That is why such scanners like Netstumbler, the most used Scanner on Windows, are so simple to detect.
 
 if you are using other network interface just change this code :  wifi = Wireless("wlan0")
+
+# Dev Status
+Still on Process
