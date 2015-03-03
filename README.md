@@ -10,4 +10,5 @@ The function scan(), like the name implies, scans for access points on the netwo
 if you are using other network interface just change this code :  wifi = Wireless("wlan0")
 
 # Dev Status
-Still on Process
+
+Still on Process and we have trouble in python wifi module. We need people to develop it. Join US
